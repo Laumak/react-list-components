@@ -1,0 +1,16 @@
+.accordion {
+  width: 100%;
+}
+
+.accordion--item--header {
+  width: 100%;
+  padding: 15px;
+  background-color: papayawhip;
+  cursor: pointer;
+}
+
+.accordion--item--content {
+  width: 100%;
+  padding: 15px;
+  background-color: #0000000d;
+}
