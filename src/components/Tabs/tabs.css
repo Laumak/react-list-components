@@ -1,0 +1,20 @@
+.tabs ul {
+  display: flex;
+
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.tabs li {
+  padding: 15px 30px;
+}
+
+.tabs li.active {
+  background-color: hotpink;
+  color: white;
+}
+
+.tabs--item {
+  padding: 20px;
+}
