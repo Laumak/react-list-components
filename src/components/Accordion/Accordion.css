@@ -7,6 +7,11 @@
   padding: 15px;
   background-color: papayawhip;
   cursor: pointer;
+  border-bottom: 1px solid #0000000d;
+}
+
+.accordion--item--header--icon {
+  float: right;
 }
 
 .accordion--item--content {

@@ -49,13 +49,10 @@ class Accordion extends Component {
             <AccordionItem
               title={item.title}
               onHeaderClick={() => this.setOpenItem(item.id)}
+              open={this.state.openItems.includes(item.id)}
               key={item.id}
             >
-              {
-                this.state.openItems.includes(item.id)
-                  ? this.props.renderItemContent(item)
-                  : null
-              }
+              {this.props.renderItemContent(item)}
             </AccordionItem>
           ))
         }
