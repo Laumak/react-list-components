@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './reset.css';
-import './App.css';
+import React, { Component } from "react"
+import "./reset.css"
+import "./App.css"
 
 import TabsView from "./views/TabsView"
 
@@ -19,8 +19,8 @@ class App extends Component {
 
         <TabsView initialItems={initialTabsItems} />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
