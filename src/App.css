@@ -19,15 +19,19 @@ input {
   display: block;
 }
 
-input:not(last-child) {
+input {
   margin-bottom: 10px;
 }
 
-.app-header {
-  margin: 40px 0;
+input:last-child {
+  margin-bottom: 0;
 }
 
 .container {
   width: 500px;
   margin: 50px auto 0;
+}
+
+.section:not(last-child) {
+  margin-bottom: 40px;
 }

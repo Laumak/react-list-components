@@ -13,9 +13,6 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <header className="app-header">
-          <h1>React stuff</h1>
-        </header>
 
         <TabsView initialItems={initialTabsItems} />
       </div>

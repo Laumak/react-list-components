@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from "react"
 import PropTypes from "prop-types"
 
 import Tabs from "../components/Tabs"
@@ -49,14 +49,14 @@ class TabsView extends Component {
 
   render() {
     return (
-      <Fragment>
+      <section className="section">
         <h2>Tabs</h2>
 
         <Tabs
           tabs={this.state.items}
           renderContentView={this.renderContentView}
         />
-      </Fragment>
+      </section>
     )
   }
 }
